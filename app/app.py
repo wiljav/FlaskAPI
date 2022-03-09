@@ -49,5 +49,5 @@ def main():
     in your terminal put the following command to get the POST request msg:
     curl -i -X POST -H "Content-Type: application/json" -d '{"text":"hello 2 times  "}' 127.0.0.1:5000/analyze
 '''
-if __name__ == '__main__':
-    app.run(host='127.0.0.1', port=5000, debug=True)
+# if __name__ == '__main__':
+#     app.run(host='127.0.0.1', port=5000, debug=True)
