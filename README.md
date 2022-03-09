@@ -5,10 +5,15 @@ To run this file, simply install the libraries required from the ```requirements
 ```sh
 python -m venv /path/to/your/new/virtual/environment
 ```
-the activate it using the following command:
+then activate it using the following command:
 ```sh
 source /path/to/your/new/virtual/environment/bin/activate
 ```
+To install the required packages using ```requirements.txt``` use the following command:
+```sh
+pip install -r requirements.txt
+```
+
 OR
 you could use the virtual env created in this repo, which contains the required packages for this API.
 To activate it use the following command:
