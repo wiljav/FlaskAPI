@@ -1,17 +1,19 @@
-<html>
-<body>
-<form action="http://localhost:5000/analyze" method="POST">
-  <div>
-    <p>curl -i -X POST -H "Content-Type: application/json" -d '"text":"hello 2 times  "}' 127.0.0.1:5000/analyze</p>
-    <label text="text">enter command here -></label>
-    <input name="command" id="command">
-  </div>
-  <div>
-    <input name="text" id="text">
-  </div>
-  <div>
-    <button>get response</button>
-  </div>
-</form>
-</body>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>FlaskApp</title>
+      <link rel="stylesheet" href="/static/styles/mainpage.css">
+  </head>
+  <body>
+    <form action = "https://flaskapichallenge.herokuapp.com/processed" method = "POST">
+      <div class="outside">
+        <div class="inside">
+       <p class="textBox">Enter your text here<br>e.g. {"text": "your text"} <b>OR</b> "your text":<br><input type = "json" name = "raw_text" /></p>
+       <p><input type = "submit" value = "submit" /></p>
+     </div>
+   </div>
+    </form>
+  </body>
 </html>
