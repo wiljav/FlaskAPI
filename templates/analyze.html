@@ -1,15 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="/static/styles/mainpage.css">
   <h1>Results</h1>
 </head>
 <body>
 <script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
-<pre class="prettyprint">
+<div><pre class="prettyprint">
 {% for key, value in result.items() %}
-<tr>{{ key }}<br>{{ value }}</tr>
+<tr><td>{{ key }}</td>
+<td>{{ value }}</td></tr>
 {% endfor %}
+<% [i for i in range(10)]%>
 </pre>
+</div>
 </table>
 </body>
 </html>
