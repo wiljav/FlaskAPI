@@ -5,7 +5,7 @@ flask==3.0.3
 Flask-Cors==4.0.2
 Flask-RESTful==0.3.9
 gunicorn==23.0.0
-itsdangerous==2.1.1
+itsdangerous==2.2
 Jinja2==3.1.6
 MarkupSafe==2.1.0
 pytz==2021.3
